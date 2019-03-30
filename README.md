@@ -35,6 +35,7 @@ exports.handler = createLambda(
   - Options that is passed to [envSrc()](https://github.com/nak2k/node-env-src#envsrcoptions-callback).
 - `checkOptions`
   - Options that is passed to [checkenv()](https://github.com/nak2k/node-lambda-checkenv).
+  - If this arg is omitted, do nothing.
 
 ## License
 
